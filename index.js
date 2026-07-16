@@ -1,6 +1,6 @@
-const calculaTotal = required("./calculos");
-const calculaDescuento = required("./calculos");
-const actualizaStock = required("./calculos");
+const calculaTotal = require("./calculos");
+const calculaDescuento = require("./calculos");
+const actualizaStock = require("./calculos");
 
 const productos = [
     {nombre: "Coca cola 1 L. (Vidrio)", precio: 5500, stock: 23, cantidad: 3, descuento: 30},

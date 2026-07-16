@@ -1,7 +1,12 @@
-function calcularTotal (precio, cantidad, descuento) {
-    const subTotal = precio * cantidad;
-    const montoDescuento = subTotal * (descuento/100)
-    return subTotal - montoDescuento
+function calculaTotal(precio, cantidad) {
+    return precio * cantidad;
+};
+
+function calculaDescuento (precio, porcentajeDescuento) {
+    return precio * (porcentajeDescuento / 100);
+    
 }
 
-module.exports = { calcularTotal };
+module.exports = {calculaTotal,
+                 calculaDescuento
+}

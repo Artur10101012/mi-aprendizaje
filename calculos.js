@@ -7,6 +7,11 @@ function calculaDescuento (precio, porcentajeDescuento) {
     
 }
 
+function actualizaStock (cantidad, stock) {
+    return stockactualizado = cantidad - stock;
+}
+
 module.exports = {calculaTotal,
-                 calculaDescuento
+                 calculaDescuento,
+                 actualizaStock
 }

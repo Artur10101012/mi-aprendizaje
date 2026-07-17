@@ -5,7 +5,7 @@ function calculaTotal(precio, cantidad) {
 function calculaDescuento (precio, porcentajeDescuento) {
     return precio * (porcentajeDescuento / 100);
     
-}
+};
 
 function actualizaStock (cantidad, stock) {
     return stockactualizado = cantidad - stock;

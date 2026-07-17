@@ -13,5 +13,5 @@ for (let i = 0; i < productos.length; i++){
   precioDescuento = calculaDescuento(p.precio, p.descuento);
   total = calculaTotal(precioDescuento, p.cantidad);
   stockActualizado = actualizaStock(p.cantidad, p.stock);
-  console.log(`Producto: ${p.nombre}, con precio base: ${p.precio} y precio con el descuento: ${precioDescuento}, se vendio un total de: ${p.cantidad}, dando una ganancia de: ${total}, stock actualizado: ${stockActualizado}`);
+  console.log(`Producto: ${p.nombre} | Precio base: ${p.precio} Gs | Precio con descuento: ${precioDescuento} Gs | Cantidad vendida: ${p.cantidad} | Total: ${total} Gs | Stock restante: ${stockActualizado}`);
 }

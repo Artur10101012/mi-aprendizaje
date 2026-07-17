@@ -3,7 +3,8 @@ function calculaTotal(precio, cantidad) {
 };
 
 function calculaDescuento (precio, porcentajeDescuento) {
-    return precio * (porcentajeDescuento / 100);
+    const monto = precio * (porcentajeDescuento / 100);
+    return precio - monto; 
     
 };
 
